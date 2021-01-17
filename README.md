@@ -6,6 +6,7 @@ The code is built for mainly 2 kind of users ie **ADMIN** and **Normal USER**
 **Main** class: Used for initializing the admin user and start the processing.
 
 **Model** package contains 3 class and is mainly used for defining the schema
+
 Resources is for defining resourceName, and their action type.
 Role class is for defining role name and list of Resource class
 user class is for defining userName and list of Role class.
