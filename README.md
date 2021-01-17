@@ -7,9 +7,9 @@ The code is built for mainly 2 kind of users ie **ADMIN** and **Normal USER**
 
 **Model** package contains 3 class and is mainly used for defining the schema
 
-Resources is for defining resourceName, and their action type.
-Role class is for defining role name and list of Resource class
-user class is for defining userName and list of Role class.
+1. Resources is for defining resourceName, and their action type.
+2. Role class is for defining role name and list of Resource class
+3. User class is for defining userName and list of Role class.
 
 **Service** class contains main logic of the code
 Access control is a parent class and contains common method used by both users ie to login as different user
